@@ -1,4 +1,5 @@
 apply plugin: 'com.android.application'
+apply plugin: 'asm_rock'
 
 android {
     compileSdkVersion 29
