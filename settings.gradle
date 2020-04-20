@@ -1,0 +1,3 @@
+rootProject.name='GradleAsmRock'
+include ':app'
+include ':asmrock'
