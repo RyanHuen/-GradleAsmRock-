@@ -19,7 +19,7 @@ dependencies {
     implementation 'com.quinn.hunter:hunter-transform:0.9.3'
     //gradle插件中需要访问Android工程相关的gradle配置，所以引入android的gradle插件版本
     implementation 'com.android.tools.build:gradle:3.6.2'
-    implementation 'com.android.tools.build:gradle-api::3.6.2'
+    implementation 'com.android.tools.build:gradle-api:3.6.2'
 }
 
 //publish to local directory
