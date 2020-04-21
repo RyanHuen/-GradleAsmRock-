@@ -19,6 +19,6 @@ public class AsmRockCodeTransform extends HunterTransform {
 
     @Override
     public void transform(Context context, Collection<TransformInput> inputs, Collection<TransformInput> referencedInputs, TransformOutputProvider outputProvider, boolean isIncremental) throws IOException, TransformException, InterruptedException {
-        super.transform(context, inputs, referencedInputs, outputProvider, isIncremental);
+        System.out.println("AsmRockCodeTransform execute");
     }
 }
