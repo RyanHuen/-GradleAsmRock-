@@ -6,6 +6,13 @@ import com.muxi.asmrock.transform.AsmRockCodeTransform;
 import org.gradle.api.Plugin;
 import org.gradle.api.Project;
 
+
+/**
+ * debug
+ * 执行  ./gradlew assembleXXX -Dorg.gradle.debug=true  --no-daemon
+ * 新建remote debug configuration  端口5005
+ * 启动debug运行
+ */
 public class AsmRock implements Plugin<Project> {
     @Override
     public void apply(Project project) {
